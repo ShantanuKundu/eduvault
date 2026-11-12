@@ -1,1 +1,38 @@
-node_modules
+# ── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Environment / Secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Hardhat build outputs ─────────────────────────────────────────────────────
+artifacts/
+cache/
+typechain-types/
+
+# ── Coverage & reports ────────────────────────────────────────────────────────
+coverage/
+coverage.json
+
+# ── Deployment artefacts (auto-generated; commit .example instead) ────────────
+frontend/src/contracts/deployments.json
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS / Editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+

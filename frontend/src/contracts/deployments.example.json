@@ -1,0 +1,20 @@
+{
+  "network": "localhost",
+  "chainId": 31337,
+  "_note": "This is a template. Run `npx hardhat run scripts/deploy.js --network localhost` to generate the real deployments.json",
+  "roles": {
+    "deployer": "0x0000000000000000000000000000000000000000",
+    "registrar": "0x0000000000000000000000000000000000000000",
+    "dean": "0x0000000000000000000000000000000000000000",
+    "student1": "0x0000000000000000000000000000000000000000",
+    "student2": "0x0000000000000000000000000000000000000000",
+    "employer": "0x0000000000000000000000000000000000000000"
+  },
+  "contracts": {
+    "EduToken": { "address": "0x0000000000000000000000000000000000000000", "abi": [] },
+    "EduRegistry": { "address": "0x0000000000000000000000000000000000000000", "abi": [] },
+    "EduDiplomaSBT": { "address": "0x0000000000000000000000000000000000000000", "abi": [] },
+    "TranscriptEscrow": { "address": "0x0000000000000000000000000000000000000000", "abi": [] }
+  }
+}
+
